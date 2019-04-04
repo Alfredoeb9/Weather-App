@@ -1,0 +1,1 @@
+"use strict";window.addEventListener("load",function(){navigator.geolocation&&navigator.geolocation.getCurrentPosition(function(o){o.coords.longitude,o.coords.latitude})});
