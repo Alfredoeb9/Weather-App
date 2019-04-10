@@ -1,6 +1,6 @@
 window.addEventListener('load', function() {
   var proxy = 'https://cors-anywhere.herokuapp.com/';
-  var api = 'http://api.openweathermap.org/data/2.5/weather?q=';
+  var api = 'https://api.openweathermap.org/data/2.5/weather?q=';
   var city = 'eastvale';
   var apiKey = '&APPID=d629efe66c026788c614fb0b6a331cff';
   var units = '&units=imperial';
