@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alfredo's Weather App</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+  <div class="input">
+    <p class="inputCity">City: <input id="city" value="London"></p>
+    
+    <button id="submit">submit</button>
+  </div>
+  <div class="location">
+    <h1 class="location_timezone">Timezone</h1>
+    <canvas class="icon1" width="128" height="128"></canvas>
+  </div>
+  <div class="temperature">
+    <div class="degree-section">
+      <h2 class="temperature_degree">34</h2>
+      <div class="temperature_range">
+        <span>Temperature Range: </span>
+        <h3 class="temperature_min"></h3>
+        <span> - </span>
+        <h3 class="temperature_max"></h3>
+      </div>
+      <span class="symbol">F</span>
+    </div>
+    
+    <p class="temp_description">clear sky</p>
+  </div>
+  <!--  build:js  -->
+  <script src="js/skycons.js"></script>
+  <script src="js/index.js"></script>
+
+  <!--  endbuild-->
+</body>
+</html>
